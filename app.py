@@ -227,7 +227,7 @@ if st.button('Predict Sale Price'):
         'LAND SQUARE FEET': land_square_feet,
         'GROSS SQUARE FEET': gross_square_feet,
         'YEAR BUILT': year_built,
-        'LAST SOLD': sale_year,
+        'SALE YEAR': sale_year,
         'SALE MONTH': sale_month,
         'NEIGHBORHOOD': st.session_state.selected_neighborhood_name,
         'BUILDING CLASS AT TIME OF SALE': selected_building_class,
