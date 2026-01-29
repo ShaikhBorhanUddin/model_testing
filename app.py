@@ -5,7 +5,7 @@ import joblib
 import xgboost # Required to load XGBoost model
 
 # --- File Paths ---
-model_path = 'nyc_property_sales_model.pkl'
+model_path = 'xgboost_model.pkl'
 feature_names_path = 'feature_names.pkl'
 unique_categorical_values_path = 'unique_categorical_values.pkl'
 
