@@ -118,8 +118,8 @@ if 'selected_latitude' not in st.session_state or 'selected_longitude' not in st
 
 
 # --- Streamlit App ---
-st.title('NYC Property Sale Price Prediction')
-st.write('Enter the property details to predict its adjusted sale price.')
+st.title('NYC Family House Price Prediction')
+st.write('Enter the property details to predict its current sale price.')
 
 col1, col2 = st.columns(2)
 
@@ -255,4 +255,4 @@ if st.button('Predict Sale Price'):
     # Make prediction
     prediction = model.predict(final_input_df)[0]
 
-    st.success(f'Predicted Adjusted Sale Price: ${prediction:,.2f}')
+    st.success(f'Predicted Current House Price: ${prediction:,.2f}')
